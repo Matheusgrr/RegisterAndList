@@ -1,0 +1,40 @@
+.centralize-box {
+  background-color: #fbfffe;
+  border: solid black 2px;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table-modal {
+  background-color: #fbfffe;
+  border: solid black 2px;
+  border-radius: 1rem;
+  width: 18rem;
+  height: 75vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.box-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 14rem;
+}
+table {
+  width: 100%;
+}
+
+.button-remove {
+  margin-bottom: 1rem;
+}
